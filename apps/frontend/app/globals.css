@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 .k2d {
   font-family: var(--font-k2d);
 }
@@ -10,4 +9,8 @@
 
 .inter {
   font-family: var(--font-inter);
+}
+
+.montserrat {
+  font-family: var(--font-montserrat);
 }
