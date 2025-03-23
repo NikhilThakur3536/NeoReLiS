@@ -25,10 +25,10 @@ export function Hero() {
       </div>
 
       <div className=" justify-center flex space-x-3 mt-10">
-        <button className=" p-6 text-2xl text-white bg-[#304D69] rounded-2xl  tracking-wide">
+        <button className=" p-6 text-2xl text-white bg-[#304D69] rounded-2xl  tracking-wide cursor-pointer">
           Get Started Now
         </button>
-        <button className=" border-2 border-[#6B829A] p-6 text-2xl text-[#304D69] rounded-2xl  tracking-wide hover:bg-[#f0e5dd]">
+        <button className=" border-2 border-[#6B829A] p-6 text-2xl text-[#304D69] rounded-2xl  tracking-wide hover:bg-[#f5f3f2] hover:cursor-pointer">
           Watch Demo
         </button>
       </div>

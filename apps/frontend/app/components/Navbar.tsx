@@ -13,7 +13,7 @@ export default function Navbar() {
       </div>
 
       <div className="  mr-2 p-2 flex justify-between">
-        <button className="relative px-4 py-2 bg-[#f0e5dd]  rounded-md overflow-hidden cursor-pointer mr-2">
+        <button className="relative px-4 py-2 bg-[#f5f3f2]  rounded-md overflow-hidden cursor-pointer mr-2">
           <span className="relative inline-block group">
             Log In
             <span className="absolute left-0 bottom-0 w-0 h-0.5  bg-[#f7f9fc] transition-all duration-300 group-hover:w-full"></span>
