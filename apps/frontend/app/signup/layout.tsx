@@ -1,7 +1,7 @@
 "use client"
 
 import { CgProfile } from "react-icons/cg";
-import {AnimatedBubbleBg} from './component/bubbleanimationbg'
+import { AnimatedBubbleBg } from "../component/bubbleanimationbg";
 import {InputFieldsData} from '../../../../packages/data/InputFieldData'
 import { SigninButtons } from "../ui/signinButtons";
 import {signinButtonsData} from '../../../../packages/data/signinbuttondata'

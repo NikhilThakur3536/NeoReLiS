@@ -1,7 +1,7 @@
 "use client"
 
-import {AnimatedBubble} from '../../ui/animationbg'
-import {bubbleDataArr} from "../../../../../packages/data/animatedBubbleData"
+import { AnimatedBubble } from "../ui/animationbg"
+import {bubbleDataArr} from "../../../../packages/data/animatedBubbleData"
 
 export const AnimatedBubbleBg = () => {
   return (

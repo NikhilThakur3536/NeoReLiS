@@ -1,6 +1,6 @@
 "use client"
 import { DemoProgress } from "../ui/demoProgress"
-import { DemoMainSection } from "./component/demomainsection"
+import { DemoMainSection } from "../component/demomainsection"
 import { useState } from "react"
 
 

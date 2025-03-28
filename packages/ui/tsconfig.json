@@ -3,6 +3,6 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"],
+  "include": ["src", "index.ts", "../../apps/frontend/app/ui/animatedBubble.tsx", "../../apps/frontend/app/ui/demoProgress.tsx", "../../apps/frontend/app/ui/featurecards.tsx", "../../apps/frontend/app/ui/inputFields.tsx", "../../apps/frontend/app/ui/progresSteps.tsx", "../../apps/frontend/app/ui/signinButtons.tsx"],
   "exclude": ["node_modules", "dist"]
 }
