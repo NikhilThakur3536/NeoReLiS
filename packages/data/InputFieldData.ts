@@ -6,10 +6,13 @@ import { MdOutlineMail } from "react-icons/md";
 
 
 export type InputFieldProps = {
-  icon: IconType,
-  placeholderText: string,
-  heading: string,
-  type: string,
+  icon: IconType;
+  placeholderText: string;
+  heading: string;
+  type: "text" | "password" | "email";
+  confirmPassword?: boolean;
+  mainPassword?: string; // Only for confirm password field
+  onChange?: (value: string) => void; // Callback to update state
 }
 
 export const InputFieldsData: InputFieldProps[] = [
@@ -36,5 +39,7 @@ export const InputFieldsData: InputFieldProps[] = [
     placeholderText: "*******",
     heading: "Confirm Password",
     type: "password",
+    confirmPassword:true,
+    
   },
 ]
