@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter, K2D, Poppins, Montserrat, Roboto } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "../lib/fontawesome";
+
+config.autoAddCss = false;
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

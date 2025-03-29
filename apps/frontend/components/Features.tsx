@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ChartIcon } from "../public/Icons/ChartIcon";
 import { ClockIcon } from "../public/Icons/ClockIcon";
 import { CloudIcon } from "../public/Icons/CloudIcon";
@@ -31,21 +32,23 @@ export function Features() {
           <FeaturesCard
             heading="Protocol Planning"
             description="Define a domain-specified protocol that guides your systematic review process with customizable forms and fileds"
-            icon={<ZapIcons />}
+            icon={
+              <FontAwesomeIcon icon="fa-solid fa-bolt-lightning" size="lg" />
+            }
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Import from CSV,BibTeX, or EndNote. Organize and categorize articles with advance filtering options"
-            icon={<DocumentIcon />}
+            icon={<FontAwesomeIcon icon="fa-solid fa-file-import" size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Work seamlessly with multiple reviewers, assign specific tasks, and track overall progress "
-            icon={<PeopleIcon />}
+            icon={<FontAwesomeIcon icon="fa-solid fa-users" size="lg" />}
           />
         </div>
       </div>
@@ -54,21 +57,23 @@ export function Features() {
           <FeaturesCard
             heading="Protocol Planning"
             description="Generate comprehensive reports and visualization based on your review data."
-            icon={<ChartIcon />}
+            icon={<FontAwesomeIcon icon="fa-solid fa-chart-simple" size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Access your projects from anywhere with secure, reliable cloud-based storage"
-            icon={<CloudIcon />}
+            icon={
+              <FontAwesomeIcon icon="fa-solid fa-cloud-arrow-up" size="lg" />
+            }
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Save  upto 60% of your time with automated screening, data extraction, and conflict resolution "
-            icon={<ClockIcon />}
+            icon={<FontAwesomeIcon icon="fa-solid fa-clock" size="lg" />}
           />
         </div>
       </div>
