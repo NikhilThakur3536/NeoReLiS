@@ -1,11 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ChartIcon } from "../public/Icons/ChartIcon";
-import { ClockIcon } from "../public/Icons/ClockIcon";
-import { CloudIcon } from "../public/Icons/CloudIcon";
-import { DocumentIcon } from "../public/Icons/Document";
-import { PeopleIcon } from "../public/Icons/PeopleIcon";
-import { ZapIcons } from "../public/Icons/ZapIcon";
+
 import { FeaturesCard } from "./FeaturesCard";
+import {
+  faBoltLightning,
+  faChartSimple,
+  faClock,
+  faCloud,
+  faFileImport,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export function Features() {
   return (
@@ -32,23 +35,21 @@ export function Features() {
           <FeaturesCard
             heading="Protocol Planning"
             description="Define a domain-specified protocol that guides your systematic review process with customizable forms and fileds"
-            icon={
-              <FontAwesomeIcon icon="fa-solid fa-bolt-lightning" size="lg" />
-            }
+            icon={<FontAwesomeIcon icon={faBoltLightning} size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Import from CSV,BibTeX, or EndNote. Organize and categorize articles with advance filtering options"
-            icon={<FontAwesomeIcon icon="fa-solid fa-file-import" size="lg" />}
+            icon={<FontAwesomeIcon icon={faFileImport} size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Work seamlessly with multiple reviewers, assign specific tasks, and track overall progress "
-            icon={<FontAwesomeIcon icon="fa-solid fa-users" size="lg" />}
+            icon={<FontAwesomeIcon icon={faUsers} size="lg" />}
           />
         </div>
       </div>
@@ -57,23 +58,21 @@ export function Features() {
           <FeaturesCard
             heading="Protocol Planning"
             description="Generate comprehensive reports and visualization based on your review data."
-            icon={<FontAwesomeIcon icon="fa-solid fa-chart-simple" size="lg" />}
+            icon={<FontAwesomeIcon icon={faChartSimple} size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Access your projects from anywhere with secure, reliable cloud-based storage"
-            icon={
-              <FontAwesomeIcon icon="fa-solid fa-cloud-arrow-up" size="lg" />
-            }
+            icon={<FontAwesomeIcon icon={faCloud} size="lg" />}
           />
         </div>
         <div>
           <FeaturesCard
             heading="Protocol Planning"
             description="Save  upto 60% of your time with automated screening, data extraction, and conflict resolution "
-            icon={<FontAwesomeIcon icon="fa-solid fa-clock" size="lg" />}
+            icon={<FontAwesomeIcon icon={faClock} size="lg" />}
           />
         </div>
       </div>

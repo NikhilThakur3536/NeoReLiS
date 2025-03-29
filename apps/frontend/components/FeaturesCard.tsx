@@ -1,7 +1,7 @@
-import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { ReactElement } from "react";
 
 export type FeatureCardsProps = {
-  icon?: IconProp;
+  icon?: ReactElement;
   heading: string;
   description: string;
 };
