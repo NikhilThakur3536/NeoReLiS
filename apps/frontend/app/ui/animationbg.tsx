@@ -16,7 +16,7 @@ export const AnimatedBubble = ({ icon: Icon }: iconprop) => {
 
   useEffect(() => {
     setRandomX(Math.random() * screenWidth);
-  }, []);
+  }, [screenWidth]);
 
   return (
     <motion.div
