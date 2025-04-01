@@ -1,1 +1,24 @@
 @import "tailwindcss";
+.k2d {
+  font-family: var(--font-k2d);
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.inter {
+  font-family: var(--font-inter);
+}
+
+.montserrat {
+  font-family: var(--font-montserrat);
+}
+
+@theme {
+  --black-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+  --div-shadow: 3px 3px 30px 3px rgba(193, 193, 193, 0.8);
+  --div-shadow-y: 3px 10px 30px 10px rgba(193, 193, 193, 0.8);
+  --div-shadow-card: 4px 4px 4px rgba(107, 130, 154, 0.9);
+}
+
