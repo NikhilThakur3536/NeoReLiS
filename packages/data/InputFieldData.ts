@@ -3,8 +3,6 @@ import { IconType } from "react-icons";
 import { TbLockPassword } from "react-icons/tb";
 import { MdOutlineMail } from "react-icons/md";
 
-
-
 export type InputFieldProps = {
   icon: IconType;
   placeholderText: string;
@@ -13,7 +11,7 @@ export type InputFieldProps = {
   confirmPassword?: boolean;
   mainPassword?: string; // Only for confirm password field
   onChange?: (value: string) => void; // Callback to update state
-}
+};
 
 export const InputFieldsData: InputFieldProps[] = [
   {
@@ -39,7 +37,6 @@ export const InputFieldsData: InputFieldProps[] = [
     placeholderText: "*******",
     heading: "Confirm Password",
     type: "password",
-    confirmPassword:true,
-    
+    confirmPassword: true,
   },
-]
+];

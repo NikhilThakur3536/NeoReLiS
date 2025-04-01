@@ -1,4 +1,4 @@
-import {ProgresStepsProps} from "../ui/src/progresSteps"
+import { ProgresStepsProps } from "../../apps/frontend/app/ui/progresSteps";
 
 export const ProgressStepsData: ProgresStepsProps[] = [
   {
@@ -41,5 +41,4 @@ export const ProgressStepsData: ProgresStepsProps[] = [
     step: "10",
     topdist: 98,
   },
-
-]
+];

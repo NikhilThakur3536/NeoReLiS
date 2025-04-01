@@ -11,7 +11,7 @@ export type IconProp = {
 export const AnimatedBubble = ({ icon: Icon }: IconProp) => {
   const [screenWidth, setScreenWidth] = useState<number>(0);
   const [randomX, setRandomX] = useState<number>(0);
-  
+
   useEffect(() => {
     // Ensure this runs only on client-side
     if (typeof window !== "undefined") {
@@ -20,7 +20,7 @@ export const AnimatedBubble = ({ icon: Icon }: IconProp) => {
 
       const handleResize = () => setScreenWidth(window.innerWidth);
       window.addEventListener("resize", handleResize);
-      
+
       return () => window.removeEventListener("resize", handleResize);
     }
   }, [screenWidth]);

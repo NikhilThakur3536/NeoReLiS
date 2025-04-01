@@ -1,5 +1,5 @@
 import { CgGoogle, CgMicrosoft } from "react-icons/cg";
-import {signinButtonProps} from "../../apps/frontend/app/ui/signinButtons"
+import { signinButtonProps } from "../../apps/frontend/app/ui/signinButtons";
 export const signinButtonsData: signinButtonProps[] = [
   {
     icon: CgGoogle,
@@ -8,5 +8,5 @@ export const signinButtonsData: signinButtonProps[] = [
   {
     icon: CgMicrosoft,
     label: "Microsoft",
-  }
-]
+  },
+];

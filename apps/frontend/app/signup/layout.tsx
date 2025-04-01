@@ -14,17 +14,21 @@ export default function SignUP() {
   return (
     <div className="w-screen h-screen bg-[#F7F9FC] flex flex-col items-center gap-4 overflow-hidden">
       <AnimatedBubbleBg />
-      
+
       {/* Main Heading */}
       <div className="z-10 w-[40%] h-[18%]">
-        <h2 className="font-bold text-4xl text-center text-[#304D69] mb-2">ReLis</h2>
+        <h2 className="font-bold text-4xl text-center text-[#304D69] mb-2">
+          ReLis
+        </h2>
         <h3 className="font-medium text-lg text-center text-[#6B829A]">
           Your Systematic Review Companion
         </h3>
       </div>
 
       <div className="z-10 flex flex-col bg-white/10 shadow-[0px_0px_12px_2px_rgba(0,0,0,0.1)] w-[30%] h-[84%] rounded-xl p-6 border border-[#6B829A]/40 mb-4">
-        <h3 className="text-[#304D69] font-medium text-3xl mb-2">Create an Account</h3>
+        <h3 className="text-[#304D69] font-medium text-3xl mb-2">
+          Create an Account
+        </h3>
         <h3 className="text-[#6B829A] text-md mb-2">
           Enter your details to create your account
         </h3>
@@ -41,7 +45,9 @@ export default function SignUP() {
           <Inputfields
             key={index}
             {...items}
-            mainPassword={items.heading === "Confirm Password" ? password : undefined}
+            mainPassword={
+              items.heading === "Confirm Password" ? password : undefined
+            }
             onChange={items.heading === "Password" ? setPassword : undefined}
           />
         ))}
@@ -49,7 +55,11 @@ export default function SignUP() {
         {/* Submit Button */}
         <div className="relative w-full h-[9%] bg-[#304D69] rounded-xl text-white text-lg font-semibold text-center py-2 mb-2">
           <span>Create Account</span>
-          <CgProfile size={30} color="white" className="absolute top-2 left-1/4" />
+          <CgProfile
+            size={30}
+            color="white"
+            className="absolute top-2 left-1/4"
+          />
         </div>
 
         {/* Sign-in */}

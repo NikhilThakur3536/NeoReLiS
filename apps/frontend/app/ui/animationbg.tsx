@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
 import { IconType } from "react-icons/lib";
@@ -10,7 +10,6 @@ export type iconprop = {
 
 export const AnimatedBubble = ({ icon: Icon }: iconprop) => {
   const screenWidth = window.innerWidth;
-
 
   const [randomX, setRandomX] = useState(Math.random() * screenWidth);
 
@@ -26,9 +25,7 @@ export const AnimatedBubble = ({ icon: Icon }: iconprop) => {
       animate={{
         y: window.innerHeight + 50,
         scale: [0.5, 1, 0.8, 1],
-        x: [
-          randomX,
-        ],
+        x: [randomX],
       }}
       transition={{
         duration: Math.random() * 6 + 6,

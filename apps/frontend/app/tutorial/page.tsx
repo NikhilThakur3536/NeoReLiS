@@ -1,5 +1,5 @@
-import Tutorial  from "./layout";
+import Tutorial from "./layout";
 
-export default function Page(){
-    return <Tutorial/>;
+export default function Page() {
+  return <Tutorial />;
 }
