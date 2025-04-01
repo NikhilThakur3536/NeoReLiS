@@ -6,8 +6,6 @@
     "./*": "./src/*.tsx"
   },
   "scripts": {
-    "prettier-check": "prettier --check \"src/**/*.{ts,tsx,md}\"",
-    "format": "prettier --write \"src/**/*.{ts,tsx,md}\"",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
